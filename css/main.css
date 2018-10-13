@@ -99,7 +99,48 @@ textarea {
 /*utility classes*/
 
 /* common rules*/
-
+header {
+  background-color: blue;
+}
+main {
+  background-color: yellow;
+}
+footer {
+  background-color: pink;
+}
+.logo.flex {
+  background-color: red;
+}
+.nav.flex {
+  background-color: black;
+}
+.title.flex {
+  background-color: orange;
+}
+.presentationaction.flex {
+  background-color: purple;
+}
+.art.flex {
+  background-color: white;
+}
+.recipe.flex {
+  background-color: springgreen;
+}
+.desktoplinks.flex {
+  background-color: hotpink;
+}
+.footercontainer.flex {
+  background-color: lightcyan;
+}
+..desktoplinks.flex {
+  background-color: lightgrey;
+}
+.footer.flex {
+  background-color: chocolate;
+}
+.social.flex {
+  background-color: lightgoldenrodyellow;
+}
 /*@media query */
 
 /*header/*
