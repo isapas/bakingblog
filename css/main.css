@@ -97,50 +97,105 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*utility classes*/
-
-/* common rules*/
-header {
-  background-color: blue;
+.flex {
+  display: flex;
 }
+/* common rules*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  background-color: white;
+  list-style-type: none;
+}
+
+h1 {
+  background-color: white;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 400;
+  font-family: "Niconne",cursive;
+  color: #f6a8c6;
+}
+
+h2 {
+  background-color: white;
+  font-size: 32px;
+  line-height: 22px;
+  color: #555;
+  font-family: "Niconne",cursive;
+}
+
+h3 {
+  background-color: white;
+  font-size: 24px;
+  line-height: 18px;
+  color: #555;
+}
+p {*background-color: white;
+  color: darkgrey;
+  line-height: normal;
+}
+header {
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 main {
   background-color: yellow;
 }
+
 footer {
   background-color: pink;
 }
+
 .logo.flex {
   background-color: red;
 }
+
 .nav.flex {
   background-color: black;
 }
+
 .title.flex {
   background-color: orange;
 }
+
 .presentationaction.flex {
   background-color: purple;
 }
+
 .art.flex {
   background-color: white;
 }
+
 .recipe.flex {
   background-color: springgreen;
 }
+
 .desktoplinks.flex {
   background-color: hotpink;
 }
+
 .footercontainer.flex {
   background-color: lightcyan;
 }
-..desktoplinks.flex {
+
+.desktoplinks.flex {
   background-color: lightgrey;
 }
+
 .footer.flex {
   background-color: chocolate;
 }
+
 .social.flex {
   background-color: lightgoldenrodyellow;
 }
+
 /*@media query */
 
 /*header/*
