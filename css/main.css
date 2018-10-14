@@ -13,7 +13,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 0,9em;
 }
 
 /*
@@ -97,28 +97,69 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*utility classes*/
-.flex {
+/*.flex {
   display: flex;
-}
+}*/
 /* common rules*/
 /* gris    color: #646464; */
 body {
   font-family: "Open Sans", sans-serif;
-  text-align: center;
+
 }
 
-.phonedropbtn{
-  flex-direction: row;
+header {
+
+}
+
+main {
+
+}
+
+footer {
+  background-color: pink;
+}
+/*elements rules*/
+.logo {
+  display: flex;
+}
+
+.logocontainer {
+  width: 50%;
+  height: auto;
+}
+.login {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightcoral;
+  display: flex;
+  width:50%;
+  height:10vh;
+}
+ .formcontainer {
+
+ }
+ .rightside {
+   flex-direction: row;
+ }
+form .desktop {
+  background-color: whitesmoke;
+  justify-content: space-around;
+  align-items: center;
+}
+input .search {
+  width: 20%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
 }
 ul {
   background-color: blueviolet;
   list-style-type: none;
-justify-content: space-around;
+  justify-content: space-around;
   color: #a64d79;
-  display: flex;
 }
 li {
-    flex-direction: row;
+    display: inline-block;
 }
 a {
       text-decoration: none;
@@ -126,7 +167,7 @@ a {
 h1 {
   background-color: white;
   color: #f43066;
-  font-size: 60px;
+  font-size: 3vw;
   line-height: 66px;
   font-weight: 400;
   font-family: "Niconne",cursive;
@@ -160,70 +201,91 @@ p {
   line-height: normal;
 }
 
-header {
-  background-color: blue;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-main {
-  background-color: yellow;
-}
-
-footer {
-  background-color: pink;
-}
-
-.logo .flex {
-  background-color: red;
-  justify-content: flex-start;
-}
-.login .flex {
-  flex-direction: row-reverse;
-  justify-content: ;
-}
-.nav .flex {
+.nav {
   background-color: black;
 }
 
-.title.flex {
+.title {
   background-color: orange;
 }
 
-.presentationaction.flex {
+.presentationaction {
   background-color: purple;
 }
 
-.art.flex {
+.art {
   background-color: white;
 }
 
-.recipe.flex {
+.recipe {
   background-color: springgreen;
 }
 
-.desktoplinks.flex {
+.desktoplinks {
   background-color: hotpink;
 }
 
-.footercontainer.flex {
+.footercontainer {
   background-color: lightcyan;
 }
 
-.desktoplinks.flex {
+.desktoplinks {
   background-color: lightgrey;
 }
 
-.footer.flex {
+.footer {
   background-color: chocolate;
 }
 
-.social.flex {
+.social {
   background-color: lightgoldenrodyellow;
 }
 
 /*@media query */
+@media only screen and (max-width: 385px) {
 
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  form {
+    visibility: hidden;
+  }
+  img .imglogo {
+    height: auto;
+  }
+  input .search {
+  display: none;
+
+  }
+  nav {
+    display: none;
+  }
+  .phonedropbtn {
+    font-size: 2em;
+  }
+.fas fa-search {
+  font-size: 0.9em;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
 /*header/*
 
 /*main*/
